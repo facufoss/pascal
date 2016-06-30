@@ -20,8 +20,6 @@ ReadLn (N2);
           AU:= N1;
           end;
  WriteLn('Escriba un numero');
-
-
  while (n1 <> 0) do
   begin
   
