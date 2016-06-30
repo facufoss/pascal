@@ -5,7 +5,7 @@ var numero: integer;
     i: integer;
     N: integer;
 begin 
-writeln ('escriba la cantidad de numeros a ingresar');
+writeln ('escriba una sucesion de numeros');
 ReadLn (N);
 writeln ('escriba un numero');
 ReadLn (numero);

@@ -16,6 +16,7 @@ readln (N);
              AU := U;
              U := R;
              R := (AU + U);
+             writeln ('su diferencia es');
              writeln (R);  
              end;
  end.

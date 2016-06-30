@@ -8,7 +8,7 @@ var U: integer;
  AU := 0;
  U := 1;
  R := (AU + U);
- writeln ('ingrresar un numero');
+ writeln ('ingrese un numero');
 writeln (AU, U, R);
 readln (T);
     while T > R do 
@@ -16,6 +16,7 @@ readln (T);
              AU:= U;
              U:= R;
              R:= (AU + U);
+             writeln ('el resultado es');
              writeln (R);  
              end;
  end.
